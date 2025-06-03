@@ -1,0 +1,51 @@
+{
+  "costos_transformadores": {
+    "monofásico": {
+      "5": 2000000,
+      "10": 4000000,
+      "15": 4500000,
+      "25": 5500000,
+      "37.5": 25000000,
+      "50": 30000000
+    },
+    "trifásico": {
+      "15": 6000000,
+      "25": 9000000,
+      "30": 1200000,
+      "45": 35000000,
+      "50": 40000000,
+      "63": 12000000,
+      "75": 60000000,
+      "100": 75000000,
+      "150": 25000000,
+      "200": 30000000
+    }
+  },
+  "tarifas_ande": {
+    "derecho_conexion_bt_fijo": 1546700,
+    "derecho_conexion_bt_variable_por_kva": 10313,
+    "iva_porcentaje": 10
+  },
+  "costos_materiales_generales": {
+    "puesto_distribucion_completo": 8000000,
+    "gestoria_y_permisos": 1500000
+  },
+  "costos_instalacion_transformador": {
+    "mano_obra_base_gs": 3000000,
+    "materiales_menores_bt_gs": 2000000
+  },
+  "datos_cables_mt": [
+    {
+      "tipo": "Aluminio Protegido 35mm²",
+      "resistencia_ohm_km": 0.868,
+      "reactancia_ohm_km": 0.365,
+      "costo_gs_por_metro": 35000
+    },
+    {
+      "tipo": "ACSR 53.5mm² (Cotorra 1/0)",
+      "resistencia_ohm_km": 0.558,
+      "reactancia_ohm_km": 0.465,
+      "costo_gs_por_metro": 22000
+    }
+  ]
+}
