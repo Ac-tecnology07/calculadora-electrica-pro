@@ -16,10 +16,10 @@ def cargar_configuracion():
 if 'results_transformador' not in st.session_state:
     st.session_state.results_transformador = None
 
-default_mano_obra = 3000000
-default_poste_montaje = 8000000
-default_materiales_menores = 2000000
-default_gestoria = 1500000
+default_mano_obra = 0
+default_poste_montaje = 0
+default_materiales_menores = 0
+default_gestoria = 0
 
 config = cargar_configuracion()
 if config:
